@@ -16,8 +16,8 @@ public class LivroTeste {
         myLivroPoney.autor = "Whauter Invite";
         myLivroPoney.preco = 56.99;
         myLivroPoney.pagina = 257;
-
-        myLivroPoney.dezconto(0.015);
+        myLivroPoney.taxaImpressao();
+        myLivroPoney.dezconto(0.1);
         myLivroPoney.exibirDados();
     }
 

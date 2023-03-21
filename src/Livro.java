@@ -12,4 +12,9 @@ public class Livro {
     void dezconto(double desconto){
         preco = preco - (preco * desconto);
     }
+
+    void taxaImpressao(){
+        preco = preco + (preco * 0.08);
+    }
+
 }
