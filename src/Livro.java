@@ -9,4 +9,7 @@ public class Livro {
         System.out.println(nome +"\n"+ resumo +"\n"+ autor +"\n"+ pagina +"\n"+ preco);
         System.out.println("----------------------------------------");
     }
+    void dezconto(double desconto){
+        preco = preco - (preco * desconto);
+    }
 }

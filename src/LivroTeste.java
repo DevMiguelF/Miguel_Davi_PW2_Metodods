@@ -6,6 +6,8 @@ public class LivroTeste {
         mylivro.autor = "Favelado Invertidos";
         mylivro.preco = 300.40;
         mylivro.pagina = 10;
+
+        mylivro.dezconto(0.1);
         mylivro.exibirDados();
 
         Livro myLivroPoney = new Livro();
@@ -14,6 +16,8 @@ public class LivroTeste {
         myLivroPoney.autor = "Whauter Invite";
         myLivroPoney.preco = 56.99;
         myLivroPoney.pagina = 257;
+
+        myLivroPoney.dezconto(0.015);
         myLivroPoney.exibirDados();
     }
 
